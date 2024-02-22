@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import java.lang.String?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="fi.tuni.prog3.weatherapp.view.WeatherView"
+      stylesheets="@../styles/main.css"
+      fx:id="homeContainer"
+      styleClass="main-container">
+        <!-- Content for the right panel -->
+       <HBox styleClass="main-container"
+              prefHeight="550"
+              style="-fx-margin: 10;">
+            <HBox prefHeight="600"
+                  style="-fx-margin: 10;"
+                  styleClass="main-container">
+                <!-- Weather Tile Container -->
+                <!-- <VBox fx:id="weatherTileContainer" alignment="CENTER" maxHeight="309.0" maxWidth="967.0" prefHeight="309.0" prefWidth="967.0" spacing="10" styleClass="weather-tile">
+                    <HBox alignment="CENTER" spacing="5">
+                        <Label fx:id="todayLabel" styleClass="today-label" text="Today" />
+                        <Label fx:id="dateLabel" styleClass="date-label" text="Sat, 3 Aug" />
+                    </HBox>
+                    <HBox alignment="CENTER" spacing="5">
+                    <Label fx:id="currentWeatherLabel" styleClass="weather-label" text="Cloudy" />
+                    </HBox>
+                    <HBox alignment="CENTER" styleClass="temperature-container">
+                     <ImageView fx:id="weatherIconImageView" styleClass="weather-icon" />
+                     <Label fx:id="temperatureLabel" alignment="CENTER" prefHeight="40.0" prefWidth="303.0" styleClass="temperature" text="30°C" />
+                    </HBox>
+                    <HBox alignment="CENTER" spacing="5">
+                        <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../../../assets/location.png" />
+                            </image>
+                        </ImageView>
+                        <Label fx:id="cityNameLabel" styleClass="city-label" text="Hervanta, Tampere 33720" />
+                    </HBox>
+                    <Label fx:id="feelsLikeLabel" styleClass="feels-like" text="Feels like: -10°C" />
+                </VBox> -->
+                <VBox fx:id="weatherTileContainer"
+                      alignment="CENTER"
+                      styleClass="weather-tile">
+                    <HBox alignment="CENTER"
+                          spacing="5">
+                        <Label fx:id="timeLabel"
+                               styleClass="today-label"
+                               text="Today" />
+                        <Label fx:id="dateLabel"
+                               styleClass="date-label"
+                               text="Sat, 3 Aug" />
+                    </HBox>
+                    <StackPane>
+                        <ImageView fx:id="weatherIconImageView"
+                                   styleClass="weather-icon" />
+                        <Label fx:id="temperatureLabel"
+                               styleClass="temperature-text" />
+                    </StackPane>
+                    <Label fx:id="cityNameLabel"
+                           styleClass="city-label" />
+                    <Label fx:id="currentWeatherLabel"
+                           styleClass="weather-description" />
+                    <Label fx:id="feelsLikeLabel"
+                           styleClass="feels-like-text" />
+                </VBox>
+            </HBox>
+        </HBox>
+        <HBox styleClass="main-container"
+              prefHeight="550"
+              style="-fx-margin: 10;">
+            <Label text="Bottom Panel" />
+        </HBox>
+</VBox>
+
+ <!--  -->

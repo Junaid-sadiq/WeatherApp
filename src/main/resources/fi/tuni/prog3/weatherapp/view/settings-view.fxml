@@ -1,0 +1,40 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import java.lang.String?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="fi.tuni.prog3.weatherapp.controller.WeatherController"
+      stylesheets="@../styles/main.css"
+      fx:id="settingsContainer"
+      styleClass="main-container">
+        <!-- Content for the right panel -->
+        <HBox styleClass="main-container"
+              prefHeight="550"
+              style="-fx-margin: 10;">
+            <HBox prefHeight="600"
+                  style="-fx-margin: 10;"
+                  styleClass="main-container">
+                <!-- Weather Tile Container -->
+              
+             
+            </HBox>
+        </HBox>
+        <HBox styleClass="main-container"
+              prefHeight="550"
+              style="-fx-margin: 10;">
+            <Label text="Bottom Panel" />
+        </HBox>
+</VBox>
+
+ -->

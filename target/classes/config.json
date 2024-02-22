@@ -1,0 +1,39 @@
+{
+  "lastSaved": {
+    "lat": 60.1674881,
+    "lon": 24.9427473,
+    "city": "helsinki",
+    "country": "FI"
+  },
+  "favourites": [
+    {
+      "lat": 31.57,
+      "lon": 74.31,
+      "name": "Tampere",
+      "country": "PK"
+    },
+    {
+      "lat": 31.57,
+      "lon": 74.31,
+      "name": "helsinki",
+      "country": "PK"
+    },
+    {
+      "lat": 61.5,
+      "lon": 23.76,
+      "name": "Lahore",
+      "country": "FI"
+    },
+    {
+      "lat": 61.5,
+      "lon": 23.76,
+      "name": "Gujranwala",
+      "country": "FI"
+    }
+  ],
+  "units": {
+    "tempUnit": "Celsius",
+    "windSpeedUnit": "metersPerSecond",
+    "pressUnit": "hectoPascal"
+  }
+}

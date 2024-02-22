@@ -1,0 +1,401 @@
+.root {
+  -fx-font-size: 14px;
+  -fx-padding: 5px;
+  -fx-background-color: #000000;
+}
+
+.sidebar {
+  -fx-background-color: rgba(31, 45, 52, 0.43);
+  -fx-border-color: #24343D;
+  -fx-border-width: 1px;
+  -fx-padding: 10px;
+  -fx-border-radius: 10px;
+  -fx-background-radius: 10px;
+  -fx-margin-right: 10px;
+}
+
+.sidebar-button {
+  -fx-padding: 5px 10px;
+  -fx-background-color: #2a2e32;
+  -fx-border-radius: 10px;
+  -fx-background-radius: 10px;
+  -fx-text-fill: #151617;
+  -fx-margin-bottom: 10px;
+  -fx-cursor: pointer;
+}
+
+.sidebar-Homebutton {
+  -fx-padding: 5px 10px;
+ /*  -fx-background-color: #2a2e32; */
+  -fx-background-color: rgb(49, 60, 72);
+  -fx-background-radius: 10px;
+  -fx-border-radius: 90px;
+  -fx-text-fill: #151617;
+  -fx-margin-bottom: 10px;
+  -fx-margin-top: 10px;
+  -fx-cursor: pointer;
+}
+.sidebar-Homebutton:hover {
+  -fx-background-color: rgb(102, 123, 145);
+  -fx-text-fill: #000;
+}
+.sidebar-button:hover {
+  -fx-background-color:  rgb(102, 123, 145);
+  -fx-text-fill: #000;
+}
+
+.sidebar-button .graphics {
+  -fx-padding: 5px;
+}
+
+.sidebar-button .graphic {
+  -fx-padding: 5px;
+}
+
+.top-bar {
+  -fx-spacing: 5px; 
+  -fx-background-color: rgba(31, 45, 52, 0.43);
+  -fx-border-color: #24343D;
+  -fx-border-width: 1px;
+  -fx-padding: 10px;
+  -fx-border-radius: 10px;
+  -fx-background-radius: 10px;
+  -fx-margin-bottom: 10px;
+}
+
+.location-label {
+  -fx-font-size: 16px;
+  -fx-text-fill: #333; 
+}
+
+.city-text {
+  -fx-font-size: 24px;
+  -fx-font-weight: bold;
+}
+
+.temperature {
+  -fx-font-size: 48px;
+  -fx-margin-right: 40px;
+}
+
+.description-text {
+  -fx-font-size: 14px; 
+  -fx-fill: #d0d0d0;
+}
+
+.weather-tile {
+  -fx-padding: 10px;
+  -fx-background-color: #24353E;
+  -fx-background-radius: 20px;
+  -fx-border-radius: 20px;
+  -fx-box-shadow: 10px 10px 30px rgba(36.09, 52.40, 60.56, 0.60) inset;
+  -fx-spacing: 10px;
+  -fx-background-radius: 10px;
+  -fx-alignment: center;
+  -fx-max-height: 150px; 
+  -fx-max-width: 250px; 
+}
+.bottom-container {
+  -fx-flex-direction: row;
+  -fx-justify-content: space-between;
+  -fx-alignment: center;
+  -fx-margin-top: 10px;
+  -fx-margin-bottom: 10px;
+  -fx-padding: 10px;
+  -fx-background-color: #24353E;
+  -fx-background-radius: 20px;
+  -fx-border-radius: 20px;
+  -fx-box-shadow: 10px 10px 30px rgba(36.09, 52.40, 60.56, 0.60) inset;
+  -fx-spacing: 10px;
+  -fx-background-radius: 10px;
+  -fx-alignment: center;
+}
+.timeandDate {
+  -fx-font-size: 14px;
+  -fx-text-fill: #fff; 
+  -fx-flex-direction: row;
+  -fx-justify-content: space-between;
+}
+.today-label,
+.date-label {
+  -fx-font-size: 14px;
+  -fx-text-fill: #fff; 
+}
+
+.temperature {
+  -fx-font-size: 48px;
+  -fx-font-weight: bold;
+  -fx-text-fill: #fff;
+}
+.logo-container {
+  -fx-flex-direction: row;
+  -fx-justify-content: space-between;
+  -fx-alignment: center;
+  -fx-margin-bottom: 10px;
+  -fx-border-radius: 10;
+  -fx-background-radius: 10;
+  -fx-background-color: #24343D;
+  -fx-box-shadow: 10px 10px 30px rgba(36.09, 52.40, 60.56, 0.60) inset;
+  -fx-padding: 10px;
+}
+.search-box {
+  -fx-background-color: #24343D;
+  -fx-box-shadow: 10px 10px 30px rgba(36.09, 52.40, 60.56, 0.60) inset;
+  -fx-border-radius: 10;
+  -fx-background-radius: 10;
+  -fx-padding: 5px;
+  -fx-alignment: center-left;
+  -fx-max-width: 400px;
+}
+
+.search-field {
+  -fx-border-radius: 20px;
+  -fx-background-radius: 20px;
+  -fx-background-insets: 0;
+  -fx-border-insets: 0;
+  -fx-background-color: transparent;
+  -fx-text-fill: #fff;
+  -fx-placeholder-fill: #fff;
+  -fx-prompt-text-fill: #fff;
+}
+
+.search-button {
+  -fx-background-color: transparent;
+  -fx-padding: 0 5px;
+  -fx-cursor: hand;
+}
+
+
+.main-container {
+  -fx-background-image: url('../../../../../assets/bgCover.png');
+  -fx-background-size: cover; 
+  -fx-background-repeat: no-repeat;
+  -fx-spacing: 5px; 
+  -fx-background-color: #1e1e1e;
+  -fx-padding: 10px;
+  -fx-border-radius: 20px;
+  -fx-background-radius: 20px;
+  -fx-margin-top: 10px;
+}
+
+.weather-description {
+  -fx-font-size: 16px;
+  -fx-text-fill: #fff;
+  -fx-alignment: center;
+  -fx-margin-bottom: 10px;
+  -fx-margin-top: 10px;
+}
+.favoriteCitiesContainer {
+  -fx-padding: 10px;
+  -fx-background-color: #24353E;
+  -fx-background-radius: 20px;
+  -fx-border-radius: 20px;
+  -fx-box-shadow: 10px 10px 30px rgba(36.09, 52.40, 60.56, 0.60) inset;
+  -fx-spacing: 10px;
+  -fx-background-radius: 10px;
+  -fx-alignment: center;
+  -fx-max-height: 150px; 
+  -fx-max-width: 150px; 
+}
+.label {
+  -fx-text-fill: #f0f0f0;
+}
+.search-bar {
+  -fx-background-color: #000000;
+  -fx-padding: 10px;
+  -fx-border-radius: 5px;
+  -fx-background-radius: 5px;
+  /* -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 10, 0, 0, 10); */
+}
+
+.search-bar .text-field {
+  -fx-border-color: transparent;
+  -fx-border-width: 0;
+  -fx-background-color: #f0f0f0;
+  -fx-background-radius: 5px;
+}
+
+.search-bar .button {
+  -fx-background-color: #1d1d3e;
+  -fx-hovered-background-color: #393950;
+  -fx-text-fill: white;
+  -fx-background-radius: 5px;
+}
+
+.toggle-button {
+  -fx-border-radius: 10px;
+  -fx-background-radius: 10px;
+  -fx-padding: 5px 10px;
+  -fx-background-color: #24343D;
+  -fx-box-shadow: 10px 10px 30px rgba(36.09, 52.40, 60.56, 0.60) inset;
+  -fx-text-fill: #fff;
+}
+
+.toggle-button:selected {
+  -fx-background-color: #24343D;
+  -fx-box-shadow: 10px 10px 30px rgba(36.09, 52.40, 60.56, 0.60) inset;
+  -fx-text-fill: #fff;
+  -fx-padding: 10px;
+}
+.toogle-button:hover:selected {
+  -fx-background-color: rgb(36, 44, 52);
+  -fx-text-fill: #fff;
+}
+.city-label {
+  -fx-font-size: 20px;
+  -fx-font-weight: bold;
+  -fx-text-fill: #fff;
+  -fx-alignment: center;
+}
+
+.weather-description {
+  -fx-font-size: 16px;
+}
+
+.temperature {
+  -fx-font-size: 28px; 
+  -fx-font-weight: bold;
+  -fx-text-fill: #fff;
+  -fx-text-align: center;
+}
+
+.temperature-container {
+  -fx-flex-direction: row;
+}
+
+.weather-icon {
+  /* -fx-effect: dropshadow(gaussian, rgba(36, 53, 62, 0.40), 70, 0, 10, 9); */
+}
+
+.feels-like {
+  -fx-font-size: 16px;
+}
+
+.weather-info-tile {
+  -fx-padding: 10px;
+  -fx-background-color: #3949ab; 
+  -fx-background-radius: 5px;
+  -fx-alignment: top-center;
+  -fx-margin-left: 20px;
+}
+
+.info-label {
+  -fx-font-size: 12px;
+  -fx-text-fill: #b0bec5;
+}
+
+.favoriteButton-Container {
+  -fx-margin-top: 20px;
+  -fx-padding: 10px;
+  -fx-alignment: center;
+}
+.favorite-button {
+  -fx-margin-top: 20px;
+  -fx-maxHeight: 20px;
+  -fx-maxWidth: 20px; 
+  -fx-padding: 10px;
+  -fx-border-radius: 10px;
+  -fx-background-radius: 10px;
+  -fx-text-fill: #fff;
+  -fx-font-size: 12px;
+  -fx-background-color: #24353E;
+  -fx-spacing: 10px;
+  -fx-alignment: center;
+  
+}
+
+.info_label {
+  -fx-font-size: 10px;
+  -fx-text-fill: #fff;
+} 
+
+.MinMax_label {
+  -fx-font-size: 14px;
+  -fx-text-fill: #fff;
+}
+.favourites-list {
+  -fx-background-color: transparent; /* Set the ListView background to transparent */
+  -fx-background-radius: 20px;
+  -fx-border-radius: 20px;
+  -fx-box-shadow: 10px 10px 30px rgba(36, 53, 61, 0.60) inset;
+  -fx-spacing: 10px;
+  -fx-background-radius: 10px;
+  -fx-alignment: center-left;
+  -fx-min-height: 220px; 
+  -fx-max-width: 350px; 
+  -fx-padding: 10px;
+}
+
+.favourites-list .list-cell { /* Style for the individual cells within the ListView */
+  -fx-background-color: transparent;
+  -fx-text-fill: white; /* Set the text color */
+}
+
+.favourites-list .list-cell:filled:selected, .favourites-list .list-cell:filled:selected:hover { /* Style for selected cell */
+  -fx-background-color: #24353E; /* Background color for selected or hovered item */
+  -fx-background-insets: 0;
+}
+
+.favourites-list .list-cell:hover { /* Style for hover state */
+  -fx-background-color: #1d2c33; /* Slightly darker for hover state */
+}
+
+/* Button styles */
+.favorite-button {
+  -fx-background-color: #24353E;
+  -fx-text-fill: white;
+  -fx-font-size: 10px;
+  -fx-background-radius: 10px;
+  -fx-border-color: transparent;
+  -fx-border-radius: 10px;
+}
+
+.favourites-list .scroll-bar:vertical {
+  -fx-background-color: transparent;
+}
+
+.favourites-list .scroll-bar:vertical .thumb {
+  -fx-background-color: #24353E; /* Color of the scrollbar thumb */
+  -fx-background-insets: 2, 0, 2; /* Optional - adjust for padding around the thumb */
+  -fx-background-radius: 10px; /* Makes the thumb rounded */
+}
+.favorite-button:hover {
+  -fx-background-color: #1d2c33;
+}
+
+.favorite-button:selected {
+  -fx-background-color: #1d2c33;
+}
+.favorite-button:pressed {
+  -fx-background-color: #16222a;
+}
+
+.favourites-list .list-cell:filled:selected, .favourites-list .list-cell:filled:selected:hover {
+  -fx-background-color: #305060;
+  -fx-background-insets: 0;
+}
+
+.default-color0.chart-series-line { 
+  -fx-stroke: #69aed1;
+}
+.chart {
+  -fx-background-color: transparent;
+}
+
+.chart-plot-background {
+  -fx-background-color: transparent;
+}
+.chart-line-symbol {
+  -fx-background-color: #305060, white; 
+  -fx-background-insets: 0, 2;
+  -fx-background-radius: 5px;
+  -fx-padding: 5px;
+}
+
+.axis-label {
+  -fx-text-fill: white;
+}
+
+.axis-tick-label {
+  -fx-fill: white;
+}
